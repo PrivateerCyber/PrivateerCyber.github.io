@@ -1,0 +1,55 @@
+{
+    "name": "Privateer Cybersecurity",
+    "short_name": "Privateer",
+    "description": "Professional cybersecurity services navigating businesses to safety through dangerous digital waters.",
+    "start_url": "https://privateer.ca/index.html",
+    "display": "standalone",
+    "background_color": "#050510",
+    "theme_color": "#00ca6d",
+    "orientation": "portrait-primary",
+    "icons": [
+      {
+        "src": "https://privateer.ca/assets/images/logo.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "https://privateer.ca/assets/images/logo2.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any maskable"
+      }
+    ],
+    "shortcuts": [
+      {
+        "name": "Contact Us",
+        "short_name": "Contact",
+        "description": "Get in touch with our cybersecurity experts",
+        "url": "https://privateer.ca/index.html#contact"
+      },
+      {
+        "name": "Our Services",
+        "short_name": "Services",
+        "description": "Explore our cybersecurity services",
+        "url": "https://privateer.ca/index.html#services"
+      }
+    ],
+    "categories": ["business", "security", "productivity"],
+    "screenshots": [
+      {
+        "src": "https://privateer.ca/assets/images/screenshot1.jpg",
+        "type": "image/jpeg",
+        "sizes": "1280x720"
+      },
+      {
+        "src": "https://privateer.ca/assets/images/screenshot2.jpg",
+        "type": "image/jpeg",
+        "sizes": "1280x720"
+      }
+    ],
+    "dir": "ltr",
+    "lang": "en",
+    "related_applications": [],
+    "prefer_related_applications": false
+  }

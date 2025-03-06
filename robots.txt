@@ -1,0 +1,37 @@
+# robots.txt for Privateer Cybersecurity
+# https://privateer.ca/
+
+User-agent: *
+Allow: /
+Allow: /fr/
+Allow: /privacy-policy.html
+Allow: /fr/privacy-policy.html
+Allow: /terms-of-service.html
+Allow: /fr/terms-of-service.html
+Allow: /assets/
+Allow: /assets/images/
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/videos/
+
+Disallow: /404.html
+Disallow: /fr/404.html
+Disallow: /components/
+Disallow: /assets/js/scripts.js
+Disallow: /assets/js/testimonials-carousel.js
+Disallow: /assets/js/language-switcher.js
+Disallow: /assets/js/service-showcase.js
+Disallow: /assets/js/hero.js
+
+# Sitemaps
+Sitemap: https://privateer.ca/sitemap.xml
+
+# Crawl-delay for specific bots
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Crawl-delay: 10

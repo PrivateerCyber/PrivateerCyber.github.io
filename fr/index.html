@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Resource Hints -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+    <link rel="preload" href="../assets/css/main.min.css" as="style">
+    <link rel="preload" href="../assets/videos/ocean-background.mp4" as="video" type="video/mp4">
+    <link rel="preload" href="components/header.html" as="fetch" crossorigin>
+    <link rel="preload" href="components/footer.html" as="fetch" crossorigin>
+    
+    <!-- Security Headers -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://cdnjs.cloudflare.com; font-src 'self' https://cdnjs.cloudflare.com; img-src 'self' data:; form-action 'self' https://formsubmit.co; frame-ancestors 'none';">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains; preload">
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Cache-Control" content="public, max-age=86400">
+    
+    <!-- SEO Meta Tags -->
+    <title>Privateer Cybersecurity | Services Professionnels de Sécurité</title>
+    <meta name="description" content="Services professionnels de cybersécurité guidant les entreprises vers la sécurité à travers des eaux numériques dangereuses.">
+    <meta name="keywords" content="cybersécurité, test d'intrusion, évaluation de sécurité, RSSI virtuel, test de vulnérabilité">
+    <meta name="author" content="Privateer Cybersecurity">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://privateer.ca/fr/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://privateer.ca/fr/">
+    <meta property="og:title" content="Privateer Cybersecurity | Services Professionnels de Sécurité">
+    <meta property="og:description" content="Services professionnels de cybersécurité guidant les entreprises vers la sécurité à travers des eaux numériques dangereuses.">
+    <meta property="og:image" content="https://privateer.ca/assets/images/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://privateer.ca/fr/">
+    <meta property="twitter:title" content="Privateer Cybersecurity | Services Professionnels de Sécurité">
+    <meta property="twitter:description" content="Services professionnels de cybersécurité guidant les entreprises vers la sécurité à travers des eaux numériques dangereuses.">
+    <meta property="twitter:image" content="https://privateer.ca/assets/images/og-image.jpg">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/about-section.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="../assets/images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="../assets/images/apple-touch-icon.png">
+    
+    <!-- PWA Support -->
+    <link rel="manifest" href="../manifest.json">
+    <meta name="theme-color" content="#050510">
+</head>
+
+<body>
+    <!-- Skip Navigation for Accessibility -->
+    <a href="#main-content" class="skip-link">Passer au contenu principal</a>
+
+    <!-- Header Component Container -->
+    <div id="header-container"></div>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <!-- Video Background -->
+            <video class="hero-video" autoplay muted loop playsinline aria-hidden="true">
+                <source src="../assets/videos/ocean-background-optimized.webm" type="video/webm">
+                <source src="../assets/videos/ocean-background-optimized.mp4" type="video/mp4">
+                <!-- Fallback image if video fails to load -->
+                <img src="../assets/images/ocean-fallback.webp" alt="" aria-hidden="true">
+            </video>
+            <div class="hero-overlay" aria-hidden="true"></div>
+            
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Vous Guider Vers la <span>Sécurité</span></h1>
+                    <p>Des services de cybersécurité sur mesure pour protéger votre organisation contre les menaces numériques. Notre équipe d'experts vous guide vers la sécurité.</p>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="primary-btn">
+                            <i class="fas fa-compass" aria-hidden="true"></i> Consultation Gratuite
+                        </a>
+                        <a href="#services" class="secondary-btn">
+                            <i class="fas fa-shield-alt" aria-hidden="true"></i> Découvrir Nos Services
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="cyber-decoration" aria-hidden="true">
+                <span>// horizon.scan_threats();</span>
+                <span>safe_harbor::established</span>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Nos Services</h2>
+                    <p>Des solutions complètes de cybersécurité pour tracer une route sûre à travers les mers numériques de menaces et de vulnérabilités.</p>
+                </div>
+                <div class="services-grid">
+                    <!-- Service 1 -->
+                    <div class="service-card" data-category="assessment">
+                        <div class="service-icon">
+                            <i class="fas fa-key" aria-hidden="true"></i>
+                        </div>
+                        <h3>Tests d'Intrusion</h3>
+                        <p>Identifiez les vulnérabilités de vos systèmes avant les pirates informatiques grâce à nos services complets de tests d'intrusion, conçus pour évaluer la sécurité des réseaux et des actifs de votre organisation.</p>
+                    </div>
+                    
+                    <!-- Service 2 -->
+                    <div class="service-card" data-category="assessment">
+                        <div class="service-icon">
+                            <i class="fas fa-search" aria-hidden="true"></i>
+                        </div>
+                        <h3>Évaluation des Vulnérabilités</h3>
+                        <p>Ce service utilise des techniques automatisées pour identifier les faiblesses et vulnérabilités de sécurité. Les évaluations de vulnérabilité permettent de prioriser les efforts de sécurité en mettant en évidence les zones nécessitant une attention particulière pour éviter toute exploitation par des attaquants.</p>
+                    </div>
+                    
+                    <!-- Service 3 -->
+                    <div class="service-card" data-category="advisory">
+                        <div class="service-icon">
+                            <i class="fas fa-flag" aria-hidden="true"></i>
+                        </div>
+                        <h3>Défense Cyber Personnalisée</h3>
+                        <p>Une approche hautement personnalisée du conseil en cybersécurité pour répondre aux besoins uniques de sécurité de votre entreprise, de l'évaluation des risques à la mise en œuvre de mesures de sécurité robustes.</p>
+                    </div>
+                    
+                    <!-- Service 4 -->
+                    <div class="service-card" data-category="advisory">
+                        <div class="service-icon">
+                            <i class="fas fa-bolt" aria-hidden="true"></i>
+                        </div>
+                        <h3>Conseil Exécutif</h3>
+                        <p>Combler le fossé entre l'IT, la cybersécurité, les dirigeants et les membres du conseil sur l'importance critique d'investir dans la cybersécurité, en alignant les initiatives avec les objectifs commerciaux.</p>
+                    </div>
+                    
+                    <!-- Service 5 -->
+                    <div class="service-card" data-category="advisory">
+                        <div class="service-icon">
+                            <i class="fas fa-compass" aria-hidden="true"></i>
+                        </div>
+                        <h3>CISO Virtuel</h3>
+                        <p>Conseils stratégiques et supervision par un Responsable de la Sécurité des Systèmes d'Information virtuel dédié et expérimenté qui développera et mettra en œuvre des stratégies de sécurité efficaces pour votre organisation.</p>
+                    </div>
+                    
+                    <!-- Service 6 -->
+                    <div class="service-card" data-category="training">
+                        <div class="service-icon">
+                            <i class="fas fa-eye" aria-hidden="true"></i>
+                        </div>
+                        <h3>Formation en Cybersécurité</h3>
+                        <p>Formation pratique pour les dirigeants et le personnel pour repérer, prévenir et répondre aux attaques réelles, dotant votre équipe des connaissances essentielles pour rester en sécurité.</p>
+                    </div>
+                    
+                    <!-- Service 7 -->
+                    <div class="service-card" data-category="response">
+                        <div class="service-icon">
+                            <i class="fas fa-lock" aria-hidden="true"></i>
+                        </div>
+                        <h3>Support Cyber-Attaque</h3>
+                        <p>Assistance immédiate pour contenir les attaques, atténuer les impacts et reprendre le contrôle après un incident de sécurité, minimisant les temps d'arrêt et prévenant les attaques ultérieures.</p>
+                    </div>
+                    
+                    <!-- Service 8 -->
+                    <div class="service-card" data-category="response">
+                        <div class="service-icon">
+                            <i class="fas fa-shield-alt" aria-hidden="true"></i>
+                        </div>
+                        <h3>Résilience aux Rançongiciels</h3>
+                        <p>Évaluation de la préparation de votre organisation à atténuer efficacement les menaces de rançongiciels, réduisant proactivement les risques et minimisant les impacts potentiels sur les opérations commerciales.</p>
+                    </div>
+                    
+                    <!-- Service 9 -->
+                    <div class="service-card" data-category="assessment">
+                        <div class="service-icon">
+                            <i class="fas fa-fingerprint" aria-hidden="true"></i>
+                        </div>
+                        <h3>Sécurité Physique</h3>
+                        <p>Évaluation et amélioration des mesures de sécurité physique telles que le contrôle d'accès, les systèmes de surveillance et les contrôles environnementaux pour empêcher l'accès non autorisé aux infrastructures critiques.</p>
+                    </div>
+        
+                    <!-- Service 10 -->
+                    <div class="service-card service-card-featured service-card-expanded" style="grid-column: 1 / -1; width: 100%;">
+                        <div class="service-top">
+                            <div class="service-icon">
+                                <i class="fas fa-hand-rock" aria-hidden="true"></i>
+                            </div>
+                                <h3>Solutions de Sécurité Sur Mesure</h3>
+                                <p>Services de cybersécurité sur mesure conçus pour répondre aux besoins et défis spécifiques de votre organisation. Nos solutions personnalisées garantissent que vous recevez exactement la protection requise sans payer pour des extras inutiles. Nous travaillons en étroite collaboration avec votre équipe pour développer des solutions ciblées qui s'alignent sur vos objectifs commerciaux et vos priorités de sécurité.</p>
+                            </div>
+                        <div class="tailored-bottom">
+                            <p>Chaque organisation fait face à des défis de sécurité uniques. Notre approche sur mesure nous permet de fournir précisément ce dont vous avez besoin, quand vous en avez besoin. Nous commençons par comprendre votre entreprise, puis développons des solutions de sécurité personnalisées qui protègent vos actifs les plus critiques.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+      
+        <!-- Completely Redesigned About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Qui Sommes-Nous</h2>
+                    <p>Défenseurs dans le domaine numérique, missionnés pour protéger vos actifs les plus précieux</p>
+                </div>
+                
+                <!-- Mission and Vision -->
+                <div class="about-hero">
+                    <div class="about-hero-content">
+                        <h3>Notre Mission</h3>
+                        <p class="mission-statement">Comme les corsaires d'autrefois qui étaient commissionnés pour protéger les navires marchands, Privateer Cybersecurity a été fondée avec une mission claire : défendre les entreprises naviguant dans les eaux numériques traîtresses du paysage cyber d'aujourd'hui.</p>
+                    </div>
+                    <div class="about-hero-image">
+                        <img src="../assets/images/Team.jpeg" alt="Privateer Cybersecurity Team" width="600" height="400" loading="lazy">
+                    </div>
+                </div>
+                
+                <!-- Core Values -->
+                <div class="core-values">
+                    <h3>Nos Valeurs Fondamentales</h3>
+                    <div class="values-container">
+                        <div class="value-card">
+                            <div class="value-icon">
+                                <i class="fas fa-shield-alt" aria-hidden="true"></i>
+                            </div>
+                            <h4>Protection Réelle</h4>
+                            <p>Nous nous consacrons à protéger votre entreprise et vos employés avec honnêteté, sans artifices ni buzzwords.</p>
+                        </div>
+                        
+                        <div class="value-card">
+                            <div class="value-icon">
+                                <i class="fas fa-handshake" aria-hidden="true"></i>
+                            </div>
+                            <h4>Partenariat de Confiance</h4>
+                            <p>Nous agissons comme une extension de votre équipe, alignant notre expertise en sécurité avec vos objectifs commerciaux.</p>
+                        </div>
+                        
+                        <div class="value-card">
+                            <div class="value-icon">
+                                <i class="fas fa-book" aria-hidden="true"></i>
+                            </div>
+                            <h4>Apprentissage Continu</h4>
+                            <p>Nous restons à la pointe de la cybersécurité grâce à l'éducation et la recherche continues.</p>
+                        </div>
+                        
+                        <div class="value-card">
+                            <div class="value-icon">
+                                <i class="fas fa-lightbulb" aria-hidden="true"></i>
+                            </div>
+                            <h4>Solutions Créatives</h4>
+                            <p>Nous développons des approches innovantes pour répondre aux défis complexes de sécurité rencontrés par nos clients.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Redesigned "What is a Privateer?" Section -->
+        <section id="privateer-concept" class="privateer-concept-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Qu'est-ce qu'un <span>Corsaire</span>?</h2>
+                    <p>Comprendre le parallèle historique avec la cybersécurité moderne</p>
+                </div>
+                
+                <div class="privateer-hero">
+                    <div class="privateer-image">
+                        <img src="../assets/images/Privateer.webp" alt="Historical privateer ship" width="600" height="400" loading="lazy">
+                    </div>
+                    
+                    <div class="privateer-definition">
+                        <div class="definition-card">
+                            <div class="definition-icon">
+                                <i class="fas fa-scroll" aria-hidden="true"></i>
+                            </div>
+                            <p>Dans l'histoire maritime, un <strong>corsaire</strong> était un navire privé autorisé par un gouvernement via des "lettres de marque" à attaquer les navires de nations hostiles et à défendre les navires marchands. Contrairement aux pirates qui opéraient en dehors de la loi, les corsaires étaient des agents légitimes agissant avec une sanction officielle.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="modern-parallel">
+                    <h3>Le Parallèle Moderne</h3>
+                    <p class="parallel-intro">Les hackers éthiques et les professionnels de la cybersécurité d'aujourd'hui partagent un rôle similaire dans le domaine numérique. Comme les corsaires d'autrefois, nous sommes des défenseurs autorisés opérant avec intégrité et détermination.</p>
+                    
+                    <div class="comparison-grid">
+                        <div class="comparison-card historical">
+                            <div class="card-header">
+                                <div class="header-icon">
+                                    <i class="fas fa-ship" aria-hidden="true"></i>
+                                </div>
+                                <h4>Corsaires Historiques</h4>
+                            </div>
+                            <ul class="comparison-list">
+                                <li>
+                                    <span class="list-icon"><i class="fas fa-check" aria-hidden="true"></i></span>
+                                    <span>Opéraient sous sanction officielle</span>
+                                </li>
+                                <li>
+                                    <span class="list-icon"><i class="fas fa-check" aria-hidden="true"></i></span>
+                                    <span>Protégeaient les navires marchands des pirates</span>
+                                </li>
+                                <li>
+                                    <span class="list-icon"><i class="fas fa-check" aria-hidden="true"></i></span>
+                                    <span>Employaient des tactiques navales spécialisées</span>
+                                </li>
+                                <li>
+                                    <span class="list-icon"><i class="fas fa-check" aria-hidden="true"></i></span>
+                                    <span>Servaient les intérêts de sécurité nationale</span>
+                                </li>
+                                <li>
+                                    <span class="list-icon"><i class="fas fa-check" aria-hidden="true"></i></span>
+                                    <span>Recevaient des documents d'autorisation formels</span>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="comparison-divider">
+                            <div class="divider-line"></div>
+                            <div class="divider-icon">
+                                <i class="fas fa-exchange-alt" aria-hidden="true"></i>
+                            </div>
+                            <div class="divider-line"></div>
+                        </div>
+                        
+                        <div class="comparison-card modern">
+                            <div class="card-header">
+                                <div class="header-icon">
+                                    <i class="fas fa-shield-alt" aria-hidden="true"></i>
+                                </div>
+                                <h4>Cybersécurité Moderne</h4>
+                            </div>
+                            <ul class="comparison-list">
+                                <li>
+                                    <span class="list-icon"><i class="fas fa-check" aria-hidden="true"></i></span>
+                                    <span>Travaillent dans des cadres légaux et éthiques</span>
+                                </li>
+                                <li>
+                                    <span class="list-icon"><i class="fas fa-check" aria-hidden="true"></i></span>
+                                    <span>Protègent les actifs numériques des entreprises contre les hackers</span>
+                                </li>
+                                <li>
+                                    <span class="list-icon"><i class="fas fa-check" aria-hidden="true"></i></span>
+                                    <span>Utilisent des outils et techniques de sécurité spécialisés</span>
+                                </li>
+                                <li>
+                                    <span class="list-icon"><i class="fas fa-check" aria-hidden="true"></i></span>
+                                    <span>Renforcent l'infrastructure de défense cyber nationale</span>
+                                </li>
+                                <li>
+                                    <span class="list-icon"><i class="fas fa-check" aria-hidden="true"></i></span>
+                                    <span>Reçoivent des certifications et habilitations formelles</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="privateer-conclusion-wrapper">
+                    <div class="conclusion-card">
+                        <div class="card-accent"></div>
+                        <p class="privateer-conclusion">Chez Privateer Cybersecurity, nous incarnons cet héritage historique avec une expertise moderne – des défenseurs autorisés aidant les entreprises à naviguer en toute sécurité dans les eaux numériques dangereuses.</p>
+                        <div class="conclusion-icon">
+                            <i class="fas fa-compass" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section - FIXED VERSION -->
+        <section id="testimonials" class="testimonials">
+            <div class="testimonials-bg" aria-hidden="true"></div>
+            <div class="container">
+                <div class="section-title">
+                    <h2>Témoignages Clients</h2>
+                    <p>Ce que nos clients disent de nos services de cybersécurité</p>
+                </div>
+                
+                <div class="testimonials-carousel-container">
+                    <div class="testimonials-carousel" role="region" aria-label="Témoignages clients" aria-roledescription="carousel">
+                        <!-- Testimonial 1 -->
+                        <div id="testimonial-1" class="testimonial-card active" role="tabpanel" aria-labelledby="testimonial-tab-1">
+                            <div class="testimonial-content">
+                                <div class="quote-icon" aria-hidden="true"><i class="fas fa-quote-left"></i></div>
+                                <p>En tant qu'entreprise de logiciels, nous comprenons qu'un excellent logiciel ne peut être réalisé que grâce aux efforts combinés de spécialistes clés qui conçoivent, développent et sécurisent le résultat final. Collaborer avec Privateer Cybersecurity pour nos livraisons de logiciels a complété notre formule gagnante pour fournir des produits logiciels.</p>
+                            </div>
+                            <div class="testimonial-footer">
+                                <div class="testimonial-image">
+                                    <img src="../assets/images/V75.png" alt="V75 Inc. Logo" width="60" height="60" loading="lazy">
+                                </div>
+                                <div class="testimonial-author">
+                                    <h4>V75 Inc.</h4>
+                                    <p>Développement Logiciel</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Testimonial 2 -->
+                        <div id="testimonial-2" class="testimonial-card" role="tabpanel" aria-labelledby="testimonial-tab-2" hidden>
+                            <div class="testimonial-content">
+                                <div class="quote-icon" aria-hidden="true"><i class="fas fa-quote-left"></i></div>
+                                <p>Je recommande vivement les Services de Sécurité Offensive fournis par Privateer. Leur expertise et leur professionnalisme nous ont grandement aidés à améliorer la posture de sécurité de nos produits.</p>
+                            </div>
+                            <div class="testimonial-footer">
+                                <div class="testimonial-image">
+                                    <img src="../assets/images/mailsec.png.webp" alt="Mailsec Logo" width="60" height="60" loading="lazy">
+                                </div>
+                                <div class="testimonial-author">
+                                    <h4>Mailsec</h4>
+                                    <p>Logiciel de Cybersécurité</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Testimonial 3 -->
+                        <div id="testimonial-3" class="testimonial-card" role="tabpanel" aria-labelledby="testimonial-tab-3" hidden>
+                            <div class="testimonial-content">
+                                <div class="quote-icon" aria-hidden="true"><i class="fas fa-quote-left"></i></div>
+                                <p>L'équipe de sécurité offensive de Privateer a travaillé à comprendre l'application web en cours de développement et a fourni un test d'intrusion, présentant certains éléments que nous n'avions pas encore envisagés. Leurs évaluations des risques, les étapes pour reproduire les problèmes et les corrections recommandées dans le rapport final ont aidé notre startup à prioriser nos efforts.</p>
+                            </div>
+                            <div class="testimonial-footer">
+                                <div class="testimonial-image">
+                                    <img src="../assets/images/ftv.webp" alt="Family Table Ventures Logo" width="60" height="60" loading="lazy">
+                                </div>
+                                <div class="testimonial-author">
+                                    <h4>Family Table Ventures</h4>
+                                    <p>Capital-Risque & Private Equity</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Testimonial 4 -->
+                        <div id="testimonial-4" class="testimonial-card" role="tabpanel" aria-labelledby="testimonial-tab-4" hidden>
+                            <div class="testimonial-content">
+                                <div class="quote-icon" aria-hidden="true"><i class="fas fa-quote-left"></i></div>
+                                <p>L'équipe de Privateer Cybersecurity est très compétente pour identifier les véritables vulnérabilités, démontrer comment elles peuvent être exploitées et illustrer leur gravité. Nous avons effectué des tests d'intrusion externes et internes ainsi que des analyses de vulnérabilités internes, mais Privateer est allé au-delà de la portée du projet pour former notre équipe.</p>
+                            </div>
+                            <div class="testimonial-footer">
+                                <div class="testimonial-image">
+                                    <img src="../assets/images/Corwik.jpg" alt="Corwik Logo" width="60" height="60" loading="lazy">
+                                </div>
+                                <div class="testimonial-author">
+                                    <h4>Corwik</h4>
+                                    <p>Fabrication</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Testimonial controls -->
+                    <div class="testimonial-controls">
+                        <button class="control-prev" aria-label="Témoignage précédent">
+                            <i class="fas fa-chevron-left" aria-hidden="true"></i>
+                        </button>
+                        <div class="testimonial-indicators" role="tablist">
+                            <button id="testimonial-tab-1" class="indicator active" role="tab" aria-selected="true" aria-controls="testimonial-1" aria-label="Témoignage 1"></button>
+                            <button id="testimonial-tab-2" class="indicator" role="tab" aria-selected="false" aria-controls="testimonial-2" aria-label="Témoignage 2"></button>
+                            <button id="testimonial-tab-3" class="indicator" role="tab" aria-selected="false" aria-controls="testimonial-3" aria-label="Témoignage 3"></button>
+                            <button id="testimonial-tab-4" class="indicator" role="tab" aria-selected="false" aria-controls="testimonial-4" aria-label="Témoignage 4"></button>
+                        </div>
+                        <button class="control-next" aria-label="Témoignage suivant">
+                            <i class="fas fa-chevron-right" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Contactez-Nous</h2>
+                    <p>Discutons de vos besoins en cybersécurité</p>
+                </div>
+                
+                <div class="contact-grid">
+                    <!-- Contact Info -->
+                    <div class="contact-info">
+                        <h3>Informations de Contact</h3>
+                        <ul class="contact-details">
+                            <li>
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Adresse</h4>
+                                    <p>Montréal, Québec, Canada</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope" aria-hidden="true"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <h4>Email</h4>
+                                    <a href="mailto:info@privateer.ca">info@privateer.ca</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form">
+                        <form action="https://formsubmit.co/info@privateer.ca" method="POST" aria-labelledby="contact-form-heading" id="contact-form">
+                            <h3 id="contact-form-heading" class="sr-only">Formulaire de Contact</h3>
+                            
+                            <div class="form-group">
+                                <label for="name" id="name-label">Nom Complet <span class="required" aria-hidden="true">*</span></label>
+                                <input type="text" id="name" name="name" class="form-control" placeholder="Entrez votre nom" required aria-required="true" aria-invalid="false" aria-describedby="name-error" maxlength="100" pattern="[A-Za-z .'-]{2,100}">
+                                <div class="error-message" id="name-error" role="alert"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email" id="email-label">Adresse Email <span class="required" aria-hidden="true">*</span></label>
+                                <input type="email" id="email" name="email" class="form-control" placeholder="Entrez votre email" required aria-required="true" aria-invalid="false" aria-describedby="email-error" maxlength="100">
+                                <div class="error-message" id="email-error" role="alert"></div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject" id="subject-label">Sujet</label>
+                                <input type="text" id="subject" name="subject" class="form-control" placeholder="Entrez le sujet" maxlength="200">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message" id="message-label">Message <span class="required" aria-hidden="true">*</span></label>
+                                <textarea id="message" name="message" class="form-control" placeholder="Entrez votre message" required aria-required="true" aria-invalid="false" aria-describedby="message-error" maxlength="2000"></textarea>
+                                <div class="error-message" id="message-error" role="alert"></div>
+                            </div>
+                            
+                            <button type="submit" class="submit-btn" id="submit-form">Envoyer Message</button>
+                            <div class="form-status" role="status" aria-live="polite"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Component Container -->
+    <div id="footer-container"></div>
+
+    <!-- Scripts -->
+    <script src="../assets/js/main.min.js" defer></script>
+</body>
+</html>

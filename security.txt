@@ -1,0 +1,10 @@
+# security.txt for Privateer Cybersecurity
+
+# Our security contact
+Contact: mailto:info@privateer.ca
+Contact: https://privateer.ca/index.html#contact
+
+
+
+# Preferred languages for security reports
+Preferred-Languages: en, fr
