@@ -1,0 +1,72 @@
+/* Mobile Responsive Fixes for Services Section */
+
+/* Adjust services grid for better mobile display */
+@media screen and (max-width: 768px) {
+    /* Change grid to single column on mobile */
+    .services-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+    
+    /* Make all service cards full width on mobile */
+    .service-card {
+      width: 100%;
+    }
+    
+    /* Add more padding around service card content */
+    .service-card {
+      padding: 20px 15px;
+    }
+    
+    /* Adjust icon size for better mobile display */
+    .service-icon {
+      margin-bottom: 15px;
+    }
+    
+    .service-icon i {
+      font-size: 2rem;
+    }
+    
+    /* Fix for the expanded service card */
+    .service-card-expanded {
+      width: 100% !important;
+      grid-column: 1 !important;
+    }
+    
+    /* Adjust tailored service bottom section padding */
+    .tailored-bottom {
+      padding: 15px;
+      margin-top: 10px;
+    }
+    
+    /* Make section title more compact on mobile */
+    .section-title {
+      margin-bottom: 25px;
+    }
+    
+    .section-title h2 {
+      font-size: 2rem;
+    }
+    
+    .section-title p {
+      font-size: 1rem;
+    }
+  }
+  
+  /* Fix for extremely small screens */
+  @media screen and (max-width: 480px) {
+    .service-card {
+      min-height: auto;
+      padding: 15px 12px;
+    }
+    
+    .service-card h3 {
+      font-size: 1.25rem;
+      margin-bottom: 10px;
+    }
+    
+    .service-card p {
+      font-size: 0.9rem;
+    }
+  }
