@@ -36,18 +36,6 @@
       }
     ],
     "categories": ["business", "security", "productivity"],
-    "screenshots": [
-      {
-        "src": "https://privateer.ca/assets/images/screenshot1.jpg",
-        "type": "image/jpeg",
-        "sizes": "1280x720"
-      },
-      {
-        "src": "https://privateer.ca/assets/images/screenshot2.jpg",
-        "type": "image/jpeg",
-        "sizes": "1280x720"
-      }
-    ],
     "dir": "ltr",
     "lang": "en",
     "related_applications": [],

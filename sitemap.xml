@@ -3,62 +3,62 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://privateer.ca/</loc>
-        <lastmod>2025-03-10</lastmod>
+        <lastmod>2025-10-21</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
         <xhtml:link rel="alternate" hreflang="fr" href="https://privateer.ca/fr/"/>
     </url>
     <url>
         <loc>https://privateer.ca/fr/</loc>
-        <lastmod>2025-03-10</lastmod>
+        <lastmod>2025-10-21</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
         <xhtml:link rel="alternate" hreflang="en" href="https://privateer.ca/"/>
     </url>
     <url>
         <loc>https://privateer.ca/privacy-policy.html</loc>
-        <lastmod>2025-03-05</lastmod>
+        <lastmod>2025-10-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
         <xhtml:link rel="alternate" hreflang="fr" href="https://privateer.ca/fr/privacy-policy.html"/>
     </url>
     <url>
         <loc>https://privateer.ca/fr/privacy-policy.html</loc>
-        <lastmod>2025-03-05</lastmod>
+        <lastmod>2025-10-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
         <xhtml:link rel="alternate" hreflang="en" href="https://privateer.ca/privacy-policy.html"/>
     </url>
     <url>
         <loc>https://privateer.ca/terms-of-service.html</loc>
-        <lastmod>2025-03-05</lastmod>
+        <lastmod>2025-10-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
         <xhtml:link rel="alternate" hreflang="fr" href="https://privateer.ca/fr/terms-of-service.html"/>
     </url>
     <url>
         <loc>https://privateer.ca/fr/terms-of-service.html</loc>
-        <lastmod>2025-03-05</lastmod>
+        <lastmod>2025-10-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
         <xhtml:link rel="alternate" hreflang="en" href="https://privateer.ca/terms-of-service.html"/>
     </url>
     <url>
         <loc>https://privateer.ca/offline.html</loc>
-        <lastmod>2025-03-05</lastmod>
+        <lastmod>2025-10-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
     </url>
     <url>
         <loc>https://privateer.ca/404.html</loc>
-        <lastmod>2025-03-05</lastmod>
+        <lastmod>2025-10-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
         <xhtml:link rel="alternate" hreflang="fr" href="https://privateer.ca/fr/404.html"/>
     </url>
     <url>
         <loc>https://privateer.ca/fr/404.html</loc>
-        <lastmod>2025-03-05</lastmod>
+        <lastmod>2025-10-21</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.3</priority>
         <xhtml:link rel="alternate" hreflang="en" href="https://privateer.ca/404.html"/>
