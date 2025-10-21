@@ -54,6 +54,11 @@
     <!-- PWA Support -->
     <link rel="manifest" href="../manifest.json">
     <meta name="theme-color" content="#050510">
+
+    <!-- Hreflang for multilingual SEO -->
+    <link rel="alternate" hreflang="fr" href="https://privateer.ca/fr/">
+    <link rel="alternate" hreflang="en" href="https://privateer.ca/">
+    <link rel="alternate" hreflang="x-default" href="https://privateer.ca/">
 </head>
 
 <body>
@@ -259,7 +264,7 @@
                         <p class="mission-statement">Comme les corsaires d'autrefois qui étaient commissionnés pour protéger les navires marchands, Privateer Cybersecurity a été fondée avec une mission claire : défendre les entreprises naviguant dans les eaux numériques traîtresses du paysage cyber d'aujourd'hui.</p>
                     </div>
                     <div class="about-hero-image">
-                        <img src="../assets/images/Team.jpeg" alt="Privateer Cybersecurity Team" width="600" height="400" loading="lazy">
+                        <img src="../assets/images/Team.jpg" alt="Privateer Cybersecurity Team" width="600" height="400" loading="lazy">
                     </div>
                 </div>
                 
@@ -485,7 +490,7 @@
                             </div>
                             <div class="testimonial-footer">
                                 <div class="testimonial-image">
-                                    <img src="../assets/images/Corwik.jpg" alt="Corwik Logo" width="60" height="60" loading="lazy">
+                                    <img src="../assets/images/Corwik.webp" alt="Corwik Logo" width="60" height="60" loading="lazy">
                                 </div>
                                 <div class="testimonial-author">
                                     <h4>Corwik</h4>
@@ -515,17 +520,17 @@
         </section>
 
         <!-- Articles/Insights Section -->
-        <section id="articles" class="articles">
+        <section id="articles" class="articles" aria-labelledby="articles-heading">
             <div class="container">
                 <div class="section-title">
-                    <h2>Dernières Analyses de Sécurité</h2>
+                    <h2 id="articles-heading">Dernières Analyses de Sécurité</h2>
                     <p>Analyses d'experts et renseignements sur les menaces de notre équipe</p>
                     <p style="color: var(--dark-text); font-size: 0.9rem; margin-top: 0.5rem;"><em>Articles disponibles en anglais</em></p>
                 </div>
 
-                <div class="articles-grid">
+                <div class="articles-grid" role="list">
                     <!-- Article 1 -->
-                    <article class="article-card">
+                    <article class="article-card" role="listitem">
                         <div class="article-header">
                             <div class="article-icon">
                                 <i class="fas fa-shield-virus" aria-hidden="true"></i>
@@ -540,7 +545,7 @@
                     </article>
 
                     <!-- Article 2 -->
-                    <article class="article-card">
+                    <article class="article-card" role="listitem">
                         <div class="article-header">
                             <div class="article-icon">
                                 <i class="fas fa-gavel" aria-hidden="true"></i>
@@ -555,7 +560,7 @@
                     </article>
 
                     <!-- Article 3 -->
-                    <article class="article-card">
+                    <article class="article-card" role="listitem">
                         <div class="article-header">
                             <div class="article-icon">
                                 <i class="fas fa-bullseye" aria-hidden="true"></i>

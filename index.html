@@ -37,6 +37,11 @@
     <meta name="msapplication-TileColor" content="#1a1a1a">
     <meta name="msapplication-config" content="browserconfig.xml">
     <link rel="canonical" href="https://privateer.ca/">
+
+    <!-- Hreflang for multilingual SEO -->
+    <link rel="alternate" hreflang="en" href="https://privateer.ca/">
+    <link rel="alternate" hreflang="fr" href="https://privateer.ca/fr/">
+    <link rel="alternate" hreflang="x-default" href="https://privateer.ca/">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
@@ -284,7 +289,7 @@
                         <p class="mission-statement">Like the privateers of old who were commissioned to protect merchant ships, Privateer Cybersecurity was founded with a clear mission: to defend businesses navigating the treacherous digital waters of today's cyber landscape.</p>
                     </div>
                     <div class="about-hero-image">
-                        <img src="assets/images/Team.jpeg" alt="Privateer Cybersecurity Team" width="600" height="400" loading="lazy">
+                        <img src="assets/images/Team.jpg" alt="Privateer Cybersecurity Team" width="600" height="400" loading="lazy">
                     </div>
                 </div>
                 
@@ -510,7 +515,7 @@
                             </div>
                             <div class="testimonial-footer">
                                 <div class="testimonial-image">
-                                    <img src="assets/images/Corwik.jpg" alt="Corwik Logo" width="60" height="60" loading="lazy">
+                                    <img src="assets/images/Corwik.webp" alt="Corwik Logo" width="60" height="60" loading="lazy">
                                 </div>
                                 <div class="testimonial-author">
                                     <h4>Corwik</h4>
@@ -540,16 +545,16 @@
         </section>
 
         <!-- Articles/Insights Section -->
-        <section id="articles" class="articles">
+        <section id="articles" class="articles" aria-labelledby="articles-heading">
             <div class="container">
                 <div class="section-title">
-                    <h2>Latest Security Insights</h2>
+                    <h2 id="articles-heading">Latest Security Insights</h2>
                     <p>Expert analysis and threat intelligence from our team</p>
                 </div>
 
-                <div class="articles-grid">
+                <div class="articles-grid" role="list">
                     <!-- Article 1 -->
-                    <article class="article-card">
+                    <article class="article-card" role="listitem">
                         <div class="article-header">
                             <div class="article-icon">
                                 <i class="fas fa-shield-virus" aria-hidden="true"></i>
@@ -564,7 +569,7 @@
                     </article>
 
                     <!-- Article 2 -->
-                    <article class="article-card">
+                    <article class="article-card" role="listitem">
                         <div class="article-header">
                             <div class="article-icon">
                                 <i class="fas fa-gavel" aria-hidden="true"></i>
@@ -579,7 +584,7 @@
                     </article>
 
                     <!-- Article 3 -->
-                    <article class="article-card">
+                    <article class="article-card" role="listitem">
                         <div class="article-header">
                             <div class="article-icon">
                                 <i class="fas fa-bullseye" aria-hidden="true"></i>
