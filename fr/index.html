@@ -12,7 +12,7 @@
     <link rel="preload" href="components/footer.html" as="fetch" crossorigin>
     
     <!-- Security Headers -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://cdnjs.cloudflare.com; font-src 'self' https://cdnjs.cloudflare.com; img-src 'self' data:; form-action 'self' https://formsubmit.co; connect-src 'self' https://formsubmit.co; frame-ancestors 'none';">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://cdnjs.cloudflare.com 'unsafe-inline'; font-src 'self' https://cdnjs.cloudflare.com; img-src 'self' data:; form-action 'self' https://formsubmit.co; connect-src 'self' https://formsubmit.co; frame-ancestors 'none';">
     <meta http-equiv="X-Content-Type-Options" content="nosniff">
     <meta http-equiv="X-Frame-Options" content="DENY">
     <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains; preload">
@@ -510,6 +510,70 @@
                             <i class="fas fa-chevron-right" aria-hidden="true"></i>
                         </button>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Articles/Insights Section -->
+        <section id="articles" class="articles">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Dernières Analyses de Sécurité</h2>
+                    <p>Analyses d'experts et renseignements sur les menaces de notre équipe</p>
+                    <p style="color: var(--dark-text); font-size: 0.9rem; margin-top: 0.5rem;"><em>Articles disponibles en anglais</em></p>
+                </div>
+
+                <div class="articles-grid">
+                    <!-- Article 1 -->
+                    <article class="article-card">
+                        <div class="article-header">
+                            <div class="article-icon">
+                                <i class="fas fa-shield-virus" aria-hidden="true"></i>
+                            </div>
+                            <span class="article-date">23 septembre 2025</span>
+                        </div>
+                        <h3>Couper la Tête du Serpent : Interdire les Paiements de Rançon Est-il la Seule Réponse?</h3>
+                        <p>Le calcul complexe du crime et de ses conséquences à l'ère de l'extorsion numérique. Cet article examine la réalité complexe des rançongiciels et si l'interdiction des paiements de rançon est la solution.</p>
+                        <a href="https://privateercyber.substack.com/p/cutting-the-serpents-head-is-banning" target="_blank" rel="noopener noreferrer" class="article-link">
+                            Lire l'Article <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                        </a>
+                    </article>
+
+                    <!-- Article 2 -->
+                    <article class="article-card">
+                        <div class="article-header">
+                            <div class="article-icon">
+                                <i class="fas fa-gavel" aria-hidden="true"></i>
+                            </div>
+                            <span class="article-date">16 septembre 2025</span>
+                        </div>
+                        <h3>Loi 25 du Québec : Un Guide Pratique pour une Conformité en Retard</h3>
+                        <p>Conformité stratégique pour les PME afin d'éviter les pénalités et de renforcer la confiance. Un guide pratique pour comprendre et respecter les exigences de la Loi 25 du Québec sur la protection des renseignements personnels.</p>
+                        <a href="https://privateercyber.substack.com/p/quebecs-law-25-a-practical-guide" target="_blank" rel="noopener noreferrer" class="article-link">
+                            Lire l'Article <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                        </a>
+                    </article>
+
+                    <!-- Article 3 -->
+                    <article class="article-card">
+                        <div class="article-header">
+                            <div class="article-icon">
+                                <i class="fas fa-bullseye" aria-hidden="true"></i>
+                            </div>
+                            <span class="article-date">11 septembre 2025</span>
+                        </div>
+                        <h3>Pourquoi les Hackers N'ignorent Pas les Petites Entreprises</h3>
+                        <p>Comprendre pourquoi les petites entreprises sont des cibles attrayantes pour les cybercriminels et comment se protéger efficacement contre ces menaces croissantes.</p>
+                        <a href="https://privateercyber.substack.com/p/why-hackers-dont-skip-small-businesses" target="_blank" rel="noopener noreferrer" class="article-link">
+                            Lire l'Article <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                        </a>
+                    </article>
+                </div>
+
+                <div class="articles-cta">
+                    <a href="https://privateercyber.substack.com/" target="_blank" rel="noopener noreferrer" class="secondary-btn">
+                        <i class="fas fa-newspaper" aria-hidden="true"></i> Voir Tous les Articles
+                    </a>
                 </div>
             </div>
         </section>
