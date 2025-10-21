@@ -128,9 +128,23 @@
                     <h2>Our Services</h2>
                     <p>Comprehensive cybersecurity solutions to chart a safe course through the digital seas of threats and vulnerabilities.</p>
                 </div>
+
+                <!-- Main Service Type Toggle -->
+                <div class="service-type-toggle">
+                    <button class="toggle-btn active" data-type="project-based">
+                        <i class="fas fa-tasks" aria-hidden="true"></i>
+                        Project-Based Services
+                    </button>
+                    <button class="toggle-btn" data-type="managed">
+                        <i class="fas fa-headset" aria-hidden="true"></i>
+                        Managed Services
+                    </button>
+                </div>
+
                 <div class="services-grid">
+                    <!-- PROJECT-BASED SERVICES -->
                     <!-- Service 1 -->
-                    <div class="service-card" data-category="assessment">
+                    <div class="service-card" data-service-type="project-based" data-category="assessment">
                         <div class="service-icon">
                             <i class="fas fa-key" aria-hidden="true"></i>
                         </div>
@@ -139,7 +153,7 @@
                     </div>
                     
                     <!-- Service 2 -->
-                    <div class="service-card" data-category="assessment">
+                    <div class="service-card" data-service-type="project-based" data-category="assessment">
                         <div class="service-icon">
                             <i class="fas fa-search" aria-hidden="true"></i>
                         </div>
@@ -148,7 +162,7 @@
                     </div>
                     
                     <!-- Service 3 -->
-                    <div class="service-card" data-category="advisory">
+                    <div class="service-card" data-service-type="project-based" data-category="advisory">
                         <div class="service-icon">
                             <i class="fas fa-flag" aria-hidden="true"></i>
                         </div>
@@ -157,7 +171,7 @@
                     </div>
                     
                     <!-- Service 4 -->
-                    <div class="service-card" data-category="advisory">
+                    <div class="service-card" data-service-type="project-based" data-category="advisory">
                         <div class="service-icon">
                             <i class="fas fa-bolt" aria-hidden="true"></i>
                         </div>
@@ -166,7 +180,7 @@
                     </div>
                     
                     <!-- Service 5 -->
-                    <div class="service-card" data-category="advisory">
+                    <div class="service-card" data-service-type="project-based" data-category="advisory">
                         <div class="service-icon">
                             <i class="fas fa-compass" aria-hidden="true"></i>
                         </div>
@@ -175,7 +189,7 @@
                     </div>
                     
                     <!-- Service 6 -->
-                    <div class="service-card" data-category="training">
+                    <div class="service-card" data-service-type="project-based" data-category="training">
                         <div class="service-icon">
                             <i class="fas fa-eye" aria-hidden="true"></i>
                         </div>
@@ -184,7 +198,7 @@
                     </div>
                     
                     <!-- Service 7 -->
-                    <div class="service-card" data-category="response">
+                    <div class="service-card" data-service-type="project-based" data-category="response">
                         <div class="service-icon">
                             <i class="fas fa-lock" aria-hidden="true"></i>
                         </div>
@@ -193,7 +207,7 @@
                     </div>
                     
                     <!-- Service 8 -->
-                    <div class="service-card" data-category="response">
+                    <div class="service-card" data-service-type="project-based" data-category="response">
                         <div class="service-icon">
                             <i class="fas fa-shield-alt" aria-hidden="true"></i>
                         </div>
@@ -202,7 +216,7 @@
                     </div>
                     
                     <!-- Service 9 -->
-                    <div class="service-card" data-category="assessment">
+                    <div class="service-card" data-service-type="project-based" data-category="assessment">
                         <div class="service-icon">
                             <i class="fas fa-fingerprint" aria-hidden="true"></i>
                         </div>
@@ -211,7 +225,7 @@
                     </div>
                     
                     <!-- Service 10 -->
-                    <div class="service-card service-card-featured service-card-expanded" style="grid-column: 1 / -1; width: 100%;">
+                    <div class="service-card service-card-featured service-card-expanded" data-service-type="project-based" data-category="featured" style="grid-column: 1 / -1; width: 100%;">
                         <div class="service-top">
                             <div class="service-icon">
                                 <i class="fas fa-hand-rock" aria-hidden="true"></i>
@@ -222,6 +236,34 @@
                         <div class="tailored-bottom">
                             <p>Every organization faces unique security challenges. Our tailored approach allows us to provide precisely what you need, when you need it. We start by understanding your business, then develop custom security solutions that protect your most critical assets.</p>
                         </div>
+                    </div>
+
+                    <!-- MANAGED SERVICES -->
+                    <!-- Managed Service 1 -->
+                    <div class="service-card hide" data-service-type="managed" data-category="managed">
+                        <div class="service-icon">
+                            <i class="fas fa-envelope-open-text" aria-hidden="true"></i>
+                        </div>
+                        <h3>Email Security & Protection</h3>
+                        <p>Advanced email filtering, anti-phishing, and anti-malware protection. We monitor and protect your email infrastructure, blocking threats before they reach your users' inboxes and preventing costly security breaches.</p>
+                    </div>
+
+                    <!-- Managed Service 2 -->
+                    <div class="service-card hide" data-service-type="managed" data-category="managed">
+                        <div class="service-icon">
+                            <i class="fas fa-brain" aria-hidden="true"></i>
+                        </div>
+                        <h3>Threat Intelligence</h3>
+                        <p>Continuous monitoring and analysis of emerging threats, vulnerabilities, and attack patterns. Our threat intelligence service provides actionable insights to proactively defend against evolving cyber threats targeting your industry.</p>
+                    </div>
+
+                    <!-- Managed Service 3 -->
+                    <div class="service-card hide" data-service-type="managed" data-category="managed">
+                        <div class="service-icon">
+                            <i class="fas fa-tasks" aria-hidden="true"></i>
+                        </div>
+                        <h3>Vulnerability Management</h3>
+                        <p>Ongoing identification, assessment, and remediation of vulnerabilities across your infrastructure. We continuously scan your systems, prioritize risks, and provide guidance to keep your environment secure against known exploits.</p>
                     </div>
                 </div>
             </div>

@@ -103,9 +103,23 @@
                     <h2>Nos Services</h2>
                     <p>Des solutions complètes de cybersécurité pour tracer une route sûre à travers les mers numériques de menaces et de vulnérabilités.</p>
                 </div>
+
+                <!-- Main Service Type Toggle -->
+                <div class="service-type-toggle">
+                    <button class="toggle-btn active" data-type="project-based">
+                        <i class="fas fa-tasks" aria-hidden="true"></i>
+                        Services Basés sur Projets
+                    </button>
+                    <button class="toggle-btn" data-type="managed">
+                        <i class="fas fa-headset" aria-hidden="true"></i>
+                        Services Gérés
+                    </button>
+                </div>
+
                 <div class="services-grid">
+                    <!-- PROJECT-BASED SERVICES -->
                     <!-- Service 1 -->
-                    <div class="service-card" data-category="assessment">
+                    <div class="service-card" data-service-type="project-based" data-category="assessment">
                         <div class="service-icon">
                             <i class="fas fa-key" aria-hidden="true"></i>
                         </div>
@@ -114,70 +128,70 @@
                     </div>
                     
                     <!-- Service 2 -->
-                    <div class="service-card" data-category="assessment">
+                    <div class="service-card" data-service-type="project-based" data-category="assessment">
                         <div class="service-icon">
                             <i class="fas fa-search" aria-hidden="true"></i>
                         </div>
                         <h3>Évaluation des Vulnérabilités</h3>
                         <p>Ce service utilise des techniques automatisées pour identifier les faiblesses et vulnérabilités de sécurité. Les évaluations de vulnérabilité permettent de prioriser les efforts de sécurité en mettant en évidence les zones nécessitant une attention particulière pour éviter toute exploitation par des attaquants.</p>
                     </div>
-                    
+
                     <!-- Service 3 -->
-                    <div class="service-card" data-category="advisory">
+                    <div class="service-card" data-service-type="project-based" data-category="advisory">
                         <div class="service-icon">
                             <i class="fas fa-flag" aria-hidden="true"></i>
                         </div>
                         <h3>Défense Cyber Personnalisée</h3>
                         <p>Une approche hautement personnalisée du conseil en cybersécurité pour répondre aux besoins uniques de sécurité de votre entreprise, de l'évaluation des risques à la mise en œuvre de mesures de sécurité robustes.</p>
                     </div>
-                    
+
                     <!-- Service 4 -->
-                    <div class="service-card" data-category="advisory">
+                    <div class="service-card" data-service-type="project-based" data-category="advisory">
                         <div class="service-icon">
                             <i class="fas fa-bolt" aria-hidden="true"></i>
                         </div>
                         <h3>Conseil Exécutif</h3>
                         <p>Combler le fossé entre l'IT, la cybersécurité, les dirigeants et les membres du conseil sur l'importance critique d'investir dans la cybersécurité, en alignant les initiatives avec les objectifs commerciaux.</p>
                     </div>
-                    
+
                     <!-- Service 5 -->
-                    <div class="service-card" data-category="advisory">
+                    <div class="service-card" data-service-type="project-based" data-category="advisory">
                         <div class="service-icon">
                             <i class="fas fa-compass" aria-hidden="true"></i>
                         </div>
                         <h3>CISO Virtuel</h3>
                         <p>Conseils stratégiques et supervision par un Responsable de la Sécurité des Systèmes d'Information virtuel dédié et expérimenté qui développera et mettra en œuvre des stratégies de sécurité efficaces pour votre organisation.</p>
                     </div>
-                    
+
                     <!-- Service 6 -->
-                    <div class="service-card" data-category="training">
+                    <div class="service-card" data-service-type="project-based" data-category="training">
                         <div class="service-icon">
                             <i class="fas fa-eye" aria-hidden="true"></i>
                         </div>
                         <h3>Formation en Cybersécurité</h3>
                         <p>Formation pratique pour les dirigeants et le personnel pour repérer, prévenir et répondre aux attaques réelles, dotant votre équipe des connaissances essentielles pour rester en sécurité.</p>
                     </div>
-                    
+
                     <!-- Service 7 -->
-                    <div class="service-card" data-category="response">
+                    <div class="service-card" data-service-type="project-based" data-category="response">
                         <div class="service-icon">
                             <i class="fas fa-lock" aria-hidden="true"></i>
                         </div>
                         <h3>Support Cyber-Attaque</h3>
                         <p>Assistance immédiate pour contenir les attaques, atténuer les impacts et reprendre le contrôle après un incident de sécurité, minimisant les temps d'arrêt et prévenant les attaques ultérieures.</p>
                     </div>
-                    
+
                     <!-- Service 8 -->
-                    <div class="service-card" data-category="response">
+                    <div class="service-card" data-service-type="project-based" data-category="response">
                         <div class="service-icon">
                             <i class="fas fa-shield-alt" aria-hidden="true"></i>
                         </div>
                         <h3>Résilience aux Rançongiciels</h3>
                         <p>Évaluation de la préparation de votre organisation à atténuer efficacement les menaces de rançongiciels, réduisant proactivement les risques et minimisant les impacts potentiels sur les opérations commerciales.</p>
                     </div>
-                    
+
                     <!-- Service 9 -->
-                    <div class="service-card" data-category="assessment">
+                    <div class="service-card" data-service-type="project-based" data-category="assessment">
                         <div class="service-icon">
                             <i class="fas fa-fingerprint" aria-hidden="true"></i>
                         </div>
@@ -186,7 +200,7 @@
                     </div>
         
                     <!-- Service 10 -->
-                    <div class="service-card service-card-featured service-card-expanded" style="grid-column: 1 / -1; width: 100%;">
+                    <div class="service-card service-card-featured service-card-expanded" data-service-type="project-based" data-category="featured" style="grid-column: 1 / -1; width: 100%;">
                         <div class="service-top">
                             <div class="service-icon">
                                 <i class="fas fa-hand-rock" aria-hidden="true"></i>
@@ -197,6 +211,34 @@
                         <div class="tailored-bottom">
                             <p>Chaque organisation fait face à des défis de sécurité uniques. Notre approche sur mesure nous permet de fournir précisément ce dont vous avez besoin, quand vous en avez besoin. Nous commençons par comprendre votre entreprise, puis développons des solutions de sécurité personnalisées qui protègent vos actifs les plus critiques.</p>
                         </div>
+                    </div>
+
+                    <!-- SERVICES GÉRÉS -->
+                    <!-- Managed Service 1 -->
+                    <div class="service-card hide" data-service-type="managed" data-category="managed">
+                        <div class="service-icon">
+                            <i class="fas fa-envelope-open-text" aria-hidden="true"></i>
+                        </div>
+                        <h3>Sécurité et Protection des Emails</h3>
+                        <p>Filtrage avancé des emails, protection anti-hameçonnage et anti-malware. Nous surveillons et protégeons votre infrastructure de messagerie, bloquant les menaces avant qu'elles n'atteignent les boîtes de réception de vos utilisateurs et prévenant les violations de sécurité coûteuses.</p>
+                    </div>
+
+                    <!-- Managed Service 2 -->
+                    <div class="service-card hide" data-service-type="managed" data-category="managed">
+                        <div class="service-icon">
+                            <i class="fas fa-brain" aria-hidden="true"></i>
+                        </div>
+                        <h3>Renseignement sur les Menaces</h3>
+                        <p>Surveillance et analyse continues des menaces émergentes, des vulnérabilités et des schémas d'attaque. Notre service de renseignement sur les menaces fournit des informations exploitables pour défendre proactivement contre les cybermenaces évolutives ciblant votre secteur.</p>
+                    </div>
+
+                    <!-- Managed Service 3 -->
+                    <div class="service-card hide" data-service-type="managed" data-category="managed">
+                        <div class="service-icon">
+                            <i class="fas fa-tasks" aria-hidden="true"></i>
+                        </div>
+                        <h3>Gestion des Vulnérabilités</h3>
+                        <p>Identification, évaluation et remédiation continues des vulnérabilités à travers votre infrastructure. Nous analysons continuellement vos systèmes, priorisons les risques et fournissons des conseils pour maintenir votre environnement sécurisé contre les exploits connus.</p>
                     </div>
                 </div>
             </div>
